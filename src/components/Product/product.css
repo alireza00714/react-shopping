@@ -1,0 +1,21 @@
+.product {
+  background-color: #f0ffff;
+  border-radius: 1rem;
+}
+
+.product img {
+  border-radius: 1rem 1rem 0 0;
+}
+
+.down-img > .price,
+.down-img > .size {
+  background-color: #ea638c;
+  border-radius: 0.5rem;
+}
+
+.product button {
+  border: none;
+  outline: none;
+  background-color: #89023e;
+  border-radius: 0.5rem;
+}
