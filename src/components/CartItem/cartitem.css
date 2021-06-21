@@ -1,0 +1,20 @@
+.cart-item {
+  height: 10rem;
+  background-color: #f0ffff;
+  border-radius: 0.5rem;
+}
+
+.cart-item .img-container {
+  width: 30%;
+}
+
+.img-container > img {
+  border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.informations > button {
+  border: none;
+  outline: none;
+  background-color: #ea638c;
+  border-radius: 0.5rem;
+}

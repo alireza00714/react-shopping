@@ -2,7 +2,7 @@ import React from "react";
 
 function ProductFilter() {
   return (
-    <div className="filter-container px-3 pb-3 shadow-sm">
+    <div className="filter-container px-3 pb-3 shadow-sm w-100">
       <div className="filter-products d-flex justify-content-between">
         <div>6 Products</div>
         <div>

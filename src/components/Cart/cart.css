@@ -1,0 +1,12 @@
+.cart-container {
+  border-radius: 1rem;
+  background-color: #ffd9da;
+  min-height: 5rem;
+}
+
+.cart-footer > button {
+  border: none;
+  outline: none;
+  background-color: #89023e;
+  border-radius: 0.5rem;
+}
