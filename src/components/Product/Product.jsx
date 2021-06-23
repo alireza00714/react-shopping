@@ -1,7 +1,7 @@
 import React from "react";
 import "./product.css";
 
-function Product({ name, size, price, imgSrc }) {
+function Product({ name, size, price, imgSrc, onClick }) {
   return (
     <div className="product col-12 pb-3 px-0 col-lg-5 me-0 d-flex flex-column shadow-sm">
       <div className="image-container mb-3">
@@ -13,7 +13,9 @@ function Product({ name, size, price, imgSrc }) {
         <p className="size mb-0 text-white py-2 px-4">{size}</p>
       </div>
       <div className="w-100 px-3">
-        <button className="text-white py-3 w-100">Add to Cart</button>
+        <button className="text-white py-3 w-100" onClick={onClick}>
+          Add to Cart
+        </button>
       </div>
     </div>
   );
